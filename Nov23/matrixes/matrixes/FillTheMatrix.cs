@@ -33,7 +33,7 @@ namespace matrixes
 				default:
 					break;
 			}
-			if (fillType != "d")
+			if (fillType != "d" && fillType!="c")
 			{
 				PrintMatrix();
 			}
@@ -41,9 +41,41 @@ namespace matrixes
 
 		static void CaseC()
 		{
-			//implement
-		}
-		static void PrintMatrix()
+            int counter = 1;
+            for (int i = 0; i < mSize; i++)
+            {
+                for (int j = 0; j < i+1; j++)
+                {
+                    matrix[i-j, j] = counter++;
+                }
+            }
+            int counterTwo = mSize;
+            for (int i = 1; i < mSize; i++)
+            {
+                for (int j = i; j < mSize; j++)
+                {
+                    matrix[counterTwo - j, j] = counter++;
+                }
+                counterTwo++;
+            }
+
+            //Print
+
+            for (int i = mSize-1; i >=0; i--)
+            {
+                for (int j = 0; j < mSize; j++)
+                {
+                    Console.Write(matrix[i, j]);
+                    if (j != mSize - 1)
+                    {
+                        Console.Write(" ");
+                    }
+                }
+                Console.WriteLine();
+            }
+
+        }
+        static void PrintMatrix()
 		{
 			for (int i = 0; i < mSize; i++)
 			{
