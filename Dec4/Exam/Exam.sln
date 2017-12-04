@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam", "Exam\Exam.csproj", "{415C1C12-0DE3-425D-B5D3-5F75F0746F7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMeTheCode", "Exam\SendMeTheCode.csproj", "{415C1C12-0DE3-425D-B5D3-5F75F0746F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Move", "Move\Move.csproj", "{B449DF15-19AC-4AB1-9C83-00779B75C8AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Battleship", "Battleship\Battleship.csproj", "{12F3E152-DC41-491E-90C7-CC64CE0931AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{415C1C12-0DE3-425D-B5D3-5F75F0746F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{415C1C12-0DE3-425D-B5D3-5F75F0746F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{415C1C12-0DE3-425D-B5D3-5F75F0746F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B449DF15-19AC-4AB1-9C83-00779B75C8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B449DF15-19AC-4AB1-9C83-00779B75C8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B449DF15-19AC-4AB1-9C83-00779B75C8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B449DF15-19AC-4AB1-9C83-00779B75C8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F3E152-DC41-491E-90C7-CC64CE0931AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F3E152-DC41-491E-90C7-CC64CE0931AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F3E152-DC41-491E-90C7-CC64CE0931AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F3E152-DC41-491E-90C7-CC64CE0931AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
